@@ -1,0 +1,56 @@
+.scoreBoxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bgLightYellow {
+    background-color: rgb(143, 143, 95);
+}
+
+.bgYellow {
+    background-color: rgb(252, 252, 9);
+}
+
+.boxesTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.makeGreen {
+    color: var(--main_green_Color);
+}
+
+.boxesTopic {
+    color: var(--white-text);
+    font-weight: 500;
+}
+
+.smallBox {
+    width: 6%;
+    height: 13px;
+
+}
+
+.bgLightGreen {
+    background-color: var(--bg_Green_Color);
+}
+
+.bgGreen {
+    background-color: var(--main_green_Color);
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.firstBox {
+    border-radius: 5px 0 0 5px;
+}
+
+.lastBox {
+    border-radius: 0px 5px 5px 0px;
+}

@@ -1,0 +1,27 @@
+.limitedDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    gap: 10px;
+}
+
+.indvDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+
+}
+
+.namePercent {
+    position: relative;
+    bottom: 7px;
+}
+
+.name {
+    color: var(--white-text);
+}
+
+.percent {
+    color: var(--grey-text)
+}

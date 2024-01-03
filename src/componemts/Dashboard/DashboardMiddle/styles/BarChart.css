@@ -1,0 +1,84 @@
+.barContainer {
+    background-color: var(--bg_Green_Color);
+    position: relative;
+    border-radius: 5px;
+}
+
+.barMainContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    flex: 1;
+}
+
+.barChartContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 10px;
+}
+
+.barExtend {
+    position: absolute;
+    width: 100%;
+    background-color: var(--main_green_Color);
+    bottom: 0px;
+    border-radius: 5px;
+}
+
+.hoverShow {
+    padding: 5px 20px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background-color: var(--white-text);
+    display: none;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 130%;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+
+.hoverShowData {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.barContainer:hover .barExtend {
+    background-color: var(--white-text);
+
+}
+
+.barContainer:hover .barExtend,
+.barContainer:hover .hoverShow {
+    background-color: var(--white-text);
+    display: flex;
+}
+
+.barContainerRightData {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    color: var(--grey-text);
+    justify-content: space-between;
+}
+
+.barChartMainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+.horizontalData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--grey-text);
+    width: 95%;
+    font-size: 0.7rem;
+}

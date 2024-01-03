@@ -1,0 +1,11 @@
+.DashboardBottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .DashboardBottom {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+.dashBoardMiddle {
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .dashBoardMiddle {
+        flex-direction: column;
+    }
+}

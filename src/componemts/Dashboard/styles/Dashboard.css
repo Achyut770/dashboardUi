@@ -1,0 +1,14 @@
+.dashboardContainer {
+    background-color: var(--dashboard-bg-color);
+    flex: 1;
+    padding: max(3vw, 20px) max(3.5vw, 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 640px) {
+    .dashboardContainer {
+        padding-top: 40px;
+    }
+}

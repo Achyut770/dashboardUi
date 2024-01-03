@@ -1,0 +1,91 @@
+.dashboardMiddleLeft {
+    background-color: var(--nav-bg-color);
+    width: 58%;
+    padding: max(1.5vw, 20px);
+    border: 1px solid var(--border-color);
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboardMiddleLeft_Bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chartNavContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    gap: 10px;
+}
+
+
+
+.selectedChartNavIndex {
+    border: 1px solid var(--white-text);
+}
+
+.chartNavIndv {
+    background-color: var(--dashboardMiddle_Right_bg);
+    padding: 7px 20px;
+    border-radius: 40px;
+    color: var(--white-text);
+    font-size: 0.8rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.dashboardMiddleLeft_Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.totalNetWorth {
+    font-size: max(1.2vw, 0.9rem);
+    color: var(--grey-text);
+}
+
+.amount {
+    font-size: max(2.5vw, 1.5rem);
+    color: var(--white-text);
+    display: flex;
+    flex-direction: row;
+}
+
+.amountDollar {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.dollarSign {
+    position: relative;
+    top: 5px;
+    font-size: max(1.2vw, 0.8rem);
+    color: var(--grey-text);
+}
+
+@media only screen and (max-width: 1000px) {
+    .dashboardMiddleLeft {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 20px 20px 0px 0px;
+        height: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .dashboardMiddleLeft {
+        border-radius: 15px 15px 0px 0px;
+        padding: 15px;
+    }
+}

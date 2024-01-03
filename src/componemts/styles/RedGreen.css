@@ -1,0 +1,25 @@
+.greenRed {
+    padding: 4px 10px;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconRedGreen {
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+
+.green {
+    background-color: var(--bg_Green_Color);
+    color: var(--main_green_Color);
+}
+
+.red {
+    background-color: var(--bg_Red_Color);
+    color: var(--main_red_color);
+}

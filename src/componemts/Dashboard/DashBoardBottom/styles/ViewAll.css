@@ -1,0 +1,23 @@
+.viewAllContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewAllTopic {
+    color: var(--white-text);
+}
+
+.viewAllContainer button {
+    color: var(--white-text);
+    border: none;
+    background-color: var(--nav-bg-color);
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    gap: 15px;
+}

@@ -1,0 +1,55 @@
+.dashBoardTopContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-text);
+}
+
+.addButton {
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 105px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: var(--white-text);
+}
+
+.plusIcon {
+    font-size: 35px;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+.add {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+    .dashBoardTopContainer {
+        font-size: 1.7rem;
+
+    }
+
+    .plusIcon {
+        margin-right: 0px;
+    }
+
+    .addButton {
+        height: 40px;
+        width: 80px;
+        gap: 5px;
+        font-size: 1rem;
+    }
+
+    .add {
+        margin-right: 8px;
+    }
+}
