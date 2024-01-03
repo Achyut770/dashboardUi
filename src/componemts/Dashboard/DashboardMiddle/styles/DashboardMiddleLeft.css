@@ -55,7 +55,7 @@
 }
 
 .amount {
-    font-size: max(2.5vw, 1.3rem);
+    font-size: max(2.5vw, 1.5rem);
     color: var(--white-text);
     display: flex;
     flex-direction: row;

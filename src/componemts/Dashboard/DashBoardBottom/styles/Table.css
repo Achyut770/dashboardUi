@@ -141,8 +141,8 @@
 @media only screen and (max-width: 450px) {
     .iconTable {
         width: 25px;
-        aspect-ratio: 1;
         font-size: 13px;
+        height: 25px;
     }
 
     .buttom {
