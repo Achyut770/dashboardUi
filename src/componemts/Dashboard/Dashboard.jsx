@@ -1,8 +1,8 @@
 import React from 'react'
-import "./styles/Dashboard.css"
-import DashboardTop from './DashboardTop'
-import DashboardMiddle from './DashboardMiddle/DashboardMiddle'
 import DashBoardBottom from './DashBoardBottom/DashBoardBottom'
+import DashboardMiddle from './DashboardMiddle/DashboardMiddle'
+import DashboardTop from './DashboardTop'
+import "./styles/Dashboard.css"
 
 const Dashboard = () => {
     return (

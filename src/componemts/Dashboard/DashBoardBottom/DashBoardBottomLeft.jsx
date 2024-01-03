@@ -1,11 +1,9 @@
-import React from 'react'
-import "./styles/DashBoardBottomLeft.css"
-import ViewAll from './ViewAll'
-import Table from './Table'
-import { SiBarclays } from "react-icons/si";
-import { SiPremierleague } from "react-icons/si";
-import { FaApple } from "react-icons/fa";
-import { FaMicrosoft } from "react-icons/fa";
+import React from 'react';
+import { FaApple, FaMicrosoft } from "react-icons/fa";
+import { SiBarclays, SiPremierleague } from "react-icons/si";
+import Table from './Table';
+import ViewAll from './ViewAll';
+import "./styles/DashBoardBottomLeft.css";
 
 
 

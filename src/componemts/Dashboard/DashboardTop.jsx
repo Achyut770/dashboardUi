@@ -1,6 +1,6 @@
-import React from 'react'
-import "./styles/DashboardTop.css"
+import React from 'react';
 import { GoPlus } from "react-icons/go";
+import "./styles/DashboardTop.css";
 
 const DashboardTop = () => {
     return (

@@ -1,5 +1,5 @@
-import React from 'react'
-import "./styles/DetailsView.css"
+import React from 'react';
+import "./styles/DetailsView.css";
 
 const DetailsView = ({ details }) => {
     return (

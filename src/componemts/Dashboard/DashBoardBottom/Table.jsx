@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/Table.css';
 import RedGreen from '../../RedGreen';
+import './styles/Table.css';
 
 const Table = ({ firstKey, tableData }) => {
     return (

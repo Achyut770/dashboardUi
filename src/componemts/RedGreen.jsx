@@ -1,6 +1,6 @@
-import React from 'react'
-import "./styles/RedGreen.css"
+import React from 'react';
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
+import "./styles/RedGreen.css";
 
 
 const RedGreen = ({ text, green }) => {

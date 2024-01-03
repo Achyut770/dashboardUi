@@ -1,7 +1,7 @@
 import React from 'react'
-import "./styles/DashboardMiddleRight.css"
 import DetailsView from './DetailsView'
 import ScoreBoxContainer from './ScoreBoxContainer'
+import "./styles/DashboardMiddleRight.css"
 
 const DashboardMiddleRight = () => {
 

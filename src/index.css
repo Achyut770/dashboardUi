@@ -7,10 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: 'Nunito Sans',
-    sans-serif;
-}
 
 :root {
   --nav-bg-color: rgb(29, 29, 29);

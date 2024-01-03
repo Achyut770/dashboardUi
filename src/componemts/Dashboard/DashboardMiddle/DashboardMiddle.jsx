@@ -1,6 +1,6 @@
 import React from 'react'
-import DashboardMiddleleft from './DashboardMiddleleft'
 import DashboardMiddleRight from './DashboardMiddleRight'
+import DashboardMiddleleft from './DashboardMiddleleft'
 import "./styles/DashBoardMiddle.css"
 
 const DashboardMiddle = () => {

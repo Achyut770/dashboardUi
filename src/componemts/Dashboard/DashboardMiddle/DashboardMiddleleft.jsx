@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import "./styles/DashboardMiddleLeft.css"
-import RedGreen from '../../RedGreen'
+import React, { useState } from 'react';
+import RedGreen from '../../RedGreen';
 import BarChart from './BarChart';
+import "./styles/DashboardMiddleLeft.css";
 
 export const maxValue = 730000
 export const minValue = 690000

@@ -1,6 +1,6 @@
-import React from 'react'
-import "./styles/ViewAll.css"
+import React from 'react';
 import { FaArrowRight } from "react-icons/fa6";
+import "./styles/ViewAll.css";
 
 
 const ViewAll = ({ topic }) => {

@@ -1,6 +1,6 @@
 import React from 'react'
-import "./styles/BarChart.css"
 import { maxValue, minValue } from './DashboardMiddleleft'
+import "./styles/BarChart.css"
 
 const BarChart = ({ data, horizontalData }) => {
 

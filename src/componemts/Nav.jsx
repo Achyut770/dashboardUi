@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import "./styles/Nav.css"
-import { MdDashboard } from "react-icons/md";
-import { TbReportSearch } from "react-icons/tb";
-import { IoIosSettings } from "react-icons/io";
+import React, { useState } from 'react';
 import { FaPeopleLine } from "react-icons/fa6";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { GiFishingNet } from "react-icons/gi";
+import { IoIosSettings } from "react-icons/io";
+import { MdDashboard } from "react-icons/md";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { TbReportSearch } from "react-icons/tb";
+import "./styles/Nav.css";
 
 
 
