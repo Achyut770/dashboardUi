@@ -50,8 +50,6 @@ const chartDatas = {
 };
 
 
-
-
 const DashboardMiddleleft = () => {
     const [navItem, setNavItem] = useState(navChart[3])
     return (
@@ -69,7 +67,7 @@ const DashboardMiddleleft = () => {
                 <div className='chartNavContainer'>{navChart.map((items) => <div onClick={() => setNavItem(() => items)} key={items} className={navItem === items ? 'chartNavIndv selectedChartNavIndex' : "chartNavIndv "}>{items}</div>)}</div>
                 <BarChart data={chartDatas[navItem].dataArray} horizontalData={chartDatas[navItem].horizontalData} />
             </div>
-            <div className='dashboardMiddleLeft_Bottom_Res'>Charts cants be shown in this small device</div>
+            <div className='dashboardMiddleLeft_Bottom_Res'>Charts cant be shown in this small device</div>
         </div>
     )
 }

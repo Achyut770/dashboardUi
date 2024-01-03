@@ -26,21 +26,21 @@
     /* display: none; */
 }
 
-
-
-.selectedChartNavIndex {
-    border: 1px solid var(--white-text);
-}
-
 .chartNavIndv {
     background-color: var(--dashboardMiddle_Right_bg);
     padding: 7px 20px;
     border-radius: 40px;
-    color: var(--white-text);
+    color: var(--grey-text);
     font-size: 0.8rem;
     cursor: pointer;
     white-space: nowrap;
 }
+
+.selectedChartNavIndex {
+    color: var(--white-text);
+    border: 1px solid var(--white-text);
+}
+
 
 
 .dashboardMiddleLeft_Top {
