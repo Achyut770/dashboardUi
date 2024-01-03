@@ -90,13 +90,15 @@
     }
 
     .keyTableRes {
-        display: flex;
         width: 40%;
         flex-direction: column;
         align-items: flex-start;
-        gap: 40px;
-        font-size: 0.9rem;
+        display: flex;
+        font-size: 0.7rem;
+        gap: 45px;
     }
+
+    .keyTableRes {}
 
     .firstKeyContainer {
         justify-content: end;
@@ -132,5 +134,23 @@
     .buttom {
         font-size: 0.6rem;
     }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .iconTable {
+        width: 25px;
+        aspect-ratio: 1;
+        font-size: 13px;
+        height: 25px;
+
+    }
+
+    .buttom {
+        font-size: 0.4rem;
+    }
+
 
 }

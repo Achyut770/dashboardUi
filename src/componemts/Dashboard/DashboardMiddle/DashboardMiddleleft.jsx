@@ -66,9 +66,10 @@ const DashboardMiddleleft = () => {
                 </div>
             </div>
             <div className='dashboardMiddleLeft_Bottom'>
-                <div className='chartNavContainer'>{navChart.map((items, index) => <div onClick={() => setNavItem(() => items)} className={navItem === items ? 'chartNavIndv selectedChartNavIndex' : "chartNavIndv "}>{items}</div>)}</div>
+                <div className='chartNavContainer'>{navChart.map((items) => <div onClick={() => setNavItem(() => items)} key={items} className={navItem === items ? 'chartNavIndv selectedChartNavIndex' : "chartNavIndv "}>{items}</div>)}</div>
                 <BarChart data={chartDatas[navItem].dataArray} horizontalData={chartDatas[navItem].horizontalData} />
             </div>
+            <div className='dashboardMiddleLeft_Bottom_Res'>Charts cants be shown in this small device</div>
         </div>
     )
 }

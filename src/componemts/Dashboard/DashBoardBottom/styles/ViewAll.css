@@ -21,3 +21,13 @@
     border: 1px solid var(--border-color);
     gap: 15px;
 }
+
+@media only screen and (max-width: 450px) {
+
+    .viewAllContainer button {
+        padding: 5px 10px;
+        gap: 5px;
+        font-size: 0.7rem;
+    }
+
+}

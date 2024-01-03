@@ -35,7 +35,6 @@
 @media only screen and (max-width: 650px) {
     .dashBoardTopContainer {
         font-size: 1.7rem;
-
     }
 
     .plusIcon {
@@ -51,5 +50,21 @@
 
     .add {
         margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .addButton {
+        height: 30px;
+        width: 70px;
+        font-size: 0.7rem;
+    }
+
+    .plusIcon {
+        font-size: 25px;
+    }
+
+    .dashBoardTopContainer {
+        font-size: 1.5rem;
     }
 }

@@ -32,3 +32,11 @@
     gap: 5px;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 450px) {
+
+    .transactoLeftAmount {
+        font-size: 0.5rem;
+    }
+
+}

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     gap: 10px;
 }
 
@@ -24,4 +24,17 @@
 
 .percent {
     color: var(--grey-text)
+}
+
+@media only screen and (max-width: 650px) {
+
+    .percent,
+    .name {
+        font-size: 0.7rem;
+    }
+
+    /* .limitedDetailsContainer {
+        gap: 2px;
+    } */
+
 }
